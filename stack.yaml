@@ -13,3 +13,8 @@ flags: {}
 
 # Extra package databases containing global packages
 extra-package-dbs: []
+
+# Enable Nix support
+nix:
+  enable: true
+  shell-file: shell.nix
